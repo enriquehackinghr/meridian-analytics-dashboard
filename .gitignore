@@ -1,0 +1,39 @@
+# Environment files — NEVER commit real secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.next/
+.vite/
+.turbo/
+.cache/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python (in case data prep scripts are added)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local working artifacts
+.prd_extract/
+*.tmp
